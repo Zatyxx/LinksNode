@@ -17,7 +17,7 @@ function App() {
                 <div className="profile">
                     <img src={FotoProfil} alt="ijat-mesem" />
                     <div className="profil-desc">
-                        <h1>@ZattxyzImuep</h1>
+                        <h1>@Zattxyz</h1>
                         <span>Designer | Photographer | Programmer</span>
                     </div>
                 </div>
