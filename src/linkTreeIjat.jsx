@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './style-ijat.css';
 import FotoProfil from './assets/ijat-mesem.jpeg';
+import LogoReact from './assets/react.svg';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <div className="container">
             <section id="hero-profile">
                 <div className="profile">
-                    <img src={FotoProfil} alt="ijat-mesem" />
+                    <img src={FotoProfil} alt="ijat-mesem" id="foto-profil" />
                     <div className="profil-desc">
                         <h1>@Zattxyz</h1>
                         <span>Designer | Photographer | Programmer</span>
@@ -34,7 +35,7 @@ function App() {
                     </div>
                 </div>
             </section>
-            <p>Created by Izzat <br /> X PK 1</p>
+            <p>Created by Izzat <b>with</b> <img id="react-logo" src={LogoReact} alt="React Logo" /></p>
         </div>
     );
 }

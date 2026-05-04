@@ -6,11 +6,12 @@
     box-sizing: border-box; 
 }
 
-img {
+#foto-profil {
     width: 90px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.192);
 }
 
 .container {
@@ -34,7 +35,7 @@ img {
 }
 
 .profil-desc span {
-    color: rgba(255, 255, 255, 0.377);
+    color: rgba(255, 255, 255, 0.623);
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
 }
@@ -77,10 +78,21 @@ img {
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.301);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
+.container p img {
+    width: 16px;
+    aspect-ratio: 1 / 1;
+
+}
 @media (min-width: 1024px) {
     .card a {
         width: 40%;
     }
+
+
 }
