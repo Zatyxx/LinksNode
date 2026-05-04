@@ -11,7 +11,9 @@
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
+    margin: 0 auto;
     border: 2px solid rgba(255, 255, 255, 0.192);
+    display: block;
 }
 
 .container {
@@ -22,7 +24,6 @@
 .profile {
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 224px;
 }
 
@@ -38,6 +39,12 @@
     color: rgba(255, 255, 255, 0.623);
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
+}
+
+.profil-desc h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .card {

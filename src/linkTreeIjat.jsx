@@ -11,7 +11,8 @@ function App() {
         { id: 1, nama: "Instagram", link: "https://www.instagram.com/zattxyz/", icon: "fa-brands fa-instagram" },
         { id: 2, nama: "GitHub", link: "https://github.com/Zatyxx", icon: "fa-brands fa-github" },
         { id: 3, nama: "WhatsApp", link: "https://wa.me/6282138120493", icon: "fa-brands fa-whatsapp" },
-        { id: 4, nama: "Portofolio", link: "https://www.portoizzat.my.id", icon: "fa-solid fa-user" }
+        { id: 4, nama: "Portofolio", link: "https://www.portoizzat.my.id", icon: "fa-solid fa-user" },
+        { id: 5, nama: "Penghitung Poin LCC", link: "https://penghitungskorlcc.vercel.app", icon: "fa-solid fa-calculator" }
     ]);
 
     return (
